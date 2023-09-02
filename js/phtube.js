@@ -115,7 +115,7 @@ const noContent = (id) => {
 
 // BlogFunction
 const BlogFunction = () => {
-    open('http://127.0.0.1:9567/js/index1.html')
+    open('http://127.0.0.1:14926/index1.html')
 
 }
 
