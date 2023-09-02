@@ -22,11 +22,12 @@
                 </div>
             </div>
             <div class="navbar-center">
-                <a class="btn bg-[#d4d2d2] rounded  normal-case text-xl">Sort by view</a>
+                <button id="categoryId" class="btn bg-[#d4d2d2] rounded  normal-case text-xl">Sort by
+                    view</button>
             </div>
             <div class="navbar-end">
 
-                <button class="btn bg-[#FF1F3D] text-white text-lg "> Blog</button>
+                <button onclick="BlogFunction()" class="btn bg-[#FF1F3D] text-white text-lg "> Blog</button>
             </div>
         </div>
         <span>
@@ -37,7 +38,7 @@
         <section id="category" class="flex justify-center gap-4 lg:gap-7 my-8">
         </section>
         <!-- card section  -->
-        <section id="card" class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-3">
+        <section id="card" class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-3 rounded-sm">
         </section>
 
         <section id="no-content" class="flex justify-center items-center hidden">
